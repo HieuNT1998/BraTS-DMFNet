@@ -8,10 +8,10 @@ import numpy as np
 from sklearn.model_selection import StratifiedKFold
 import shutil
 
-root = '../data/2018/MICCAI_BraTS_2018_Data_Training'
-valid_data_dir = '../data/2018/MICCAI_BraTS_2018_Data_Validation'
+root = './data/2018/MICCAI_BraTS_2018_Data_Training'
+valid_data_dir = './data/2018/MICCAI_BraTS_2018_Data_Validation'
 
-backup = '../2018/datasets'
+backup = './2018/datasets'
 backup_files = os.listdir(backup)
 if len(backup_files) != 0:
     print("Copy from backup")
